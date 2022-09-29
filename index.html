@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>currency Convortor</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>CRYPTO RATE CONVERTOR</h1>
+
+        <div>
+          <label for="crypto">CRYPTO-CURRENCY: </label>
+          <select name="crypto-selector" id="crypto">
+            <option value="">Choose...</option>
+            <option value="BTC">BTC</option>
+            <option value="ETH">ETH</option>
+            <option value="LTC">LTC</option>
+            <option value="EOS">EOS</option>
+            <option value="XRP">XRP</option>
+          </select>
+        </div>
+        <input id="original" type="text" placeholder="Enter your amount" />
+        <div>
+          <label for="crypto">CURRENCY: </label>
+          <select name="currency-selector" id="currenecy">
+            <option value="">Choose Currency...</option>
+            <option value="EUR">EUR</option>
+            <option value="INR">INR</option>
+            <option value="GBP">GBP</option>
+            <option value="USD">USD</option>
+            <option value=""></option>
+          </select>
+        </div>
+        <input id="convert" type="text" placeholder="Convorted Currency" />
+
+        <button id="button" type="submit">Convert</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
